@@ -1,0 +1,27 @@
+C:\Documents and Settings\Addy\My Documents\Dropbox\Piticot\PiticotApplication\PiticotBusiness\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Addy\My Documents\Dropbox\Piticot\PiticotApplication\PiticotBusiness\bin\Debug\PiticotBusiness.dll
+C:\Documents and Settings\Addy\My Documents\Dropbox\Piticot\PiticotApplication\PiticotBusiness\bin\Debug\PiticotBusiness.pdb
+C:\Documents and Settings\Addy\My Documents\Dropbox\Piticot\PiticotApplication\PiticotBusiness\obj\Debug\PiticotBusiness.dll
+C:\Documents and Settings\Addy\My Documents\Dropbox\Piticot\PiticotApplication\PiticotBusiness\obj\Debug\PiticotBusiness.pdb
+C:\Users\danny\Dropbox\Piticot\PiticotApplication\PiticotBusiness\bin\Debug\PiticotBusiness.dll
+C:\Users\danny\Dropbox\Piticot\PiticotApplication\PiticotBusiness\bin\Debug\PiticotBusiness.pdb
+C:\Users\danny\Dropbox\Piticot\PiticotApplication\PiticotBusiness\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\danny\Dropbox\Piticot\PiticotApplication\PiticotBusiness\obj\Debug\PiticotBusiness.dll
+C:\Users\danny\Dropbox\Piticot\PiticotApplication\PiticotBusiness\obj\Debug\PiticotBusiness.pdb
+C:\Users\danny\Desktop\PiticotApplication\PiticotBusiness\bin\Debug\PiticotBusiness.dll
+C:\Users\danny\Desktop\PiticotApplication\PiticotBusiness\bin\Debug\PiticotBusiness.pdb
+C:\Users\danny\Desktop\PiticotApplication\PiticotBusiness\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\danny\Desktop\PiticotApplication\PiticotBusiness\obj\Debug\PiticotBusiness.dll
+C:\Users\danny\Desktop\PiticotApplication\PiticotBusiness\obj\Debug\PiticotBusiness.pdb
+C:\Users\RSB12\Dropbox\Piticot\PiticotApplication\PiticotBusiness\bin\Debug\PiticotBusiness.dll
+C:\Users\RSB12\Dropbox\Piticot\PiticotApplication\PiticotBusiness\bin\Debug\PiticotBusiness.pdb
+C:\Users\RSB12\Dropbox\Piticot\PiticotApplication\PiticotBusiness\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\RSB12\Dropbox\Piticot\PiticotApplication\PiticotBusiness\obj\Debug\PiticotBusiness.dll
+C:\Users\RSB12\Dropbox\Piticot\PiticotApplication\PiticotBusiness\obj\Debug\PiticotBusiness.pdb
+C:\Users\danny\Dropbox\Piticot\PiticotApplication\PiticotBusiness\bin\Debug\GameTable\tabla1.txt
+C:\Documents and Settings\Admin\My Documents\Dropbox\Piticot\PiticotApplication\PiticotBusiness\bin\Debug\GameTable\tabla1.txt
+C:\Documents and Settings\Admin\My Documents\Dropbox\Piticot\PiticotApplication\PiticotBusiness\bin\Debug\PiticotBusiness.dll
+C:\Documents and Settings\Admin\My Documents\Dropbox\Piticot\PiticotApplication\PiticotBusiness\bin\Debug\PiticotBusiness.pdb
+C:\Documents and Settings\Admin\My Documents\Dropbox\Piticot\PiticotApplication\PiticotBusiness\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Dropbox\Piticot\PiticotApplication\PiticotBusiness\obj\Debug\PiticotBusiness.dll
+C:\Documents and Settings\Admin\My Documents\Dropbox\Piticot\PiticotApplication\PiticotBusiness\obj\Debug\PiticotBusiness.pdb
