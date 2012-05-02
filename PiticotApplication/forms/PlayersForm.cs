@@ -9,12 +9,12 @@ using System.Windows.Forms;
 
 namespace PiticotApplication.Forms
 {
-    public partial class Form2 : Form
+    public partial class PlayersForm : Form
     {
         private System.Windows.Forms.Label[] label;
         private System.Windows.Forms.TextBox[] textBox;
         private System.Windows.Forms.Button[] playerColor;
-        public Form2()
+        public PlayersForm()
         {
             InitializeComponent();
             label = new Label[4];
@@ -23,34 +23,35 @@ namespace PiticotApplication.Forms
 
             for (int i = 0; i < label.Length; i++)
             {
-
                 label[i] = new Label();
                 label[i].AutoSize = true;
-                label[i].Location = new System.Drawing.Point(25, 130 + i * 25);
+                label[i].Location = new System.Drawing.Point(25, 43 + i * 25);
                 label[i].Name = "Jucator " + (i + 1).ToString();
                 label[i].Size = new System.Drawing.Size(35, 13);
-                label[i].TabIndex = i;
+                label[i].TabIndex = i+3;
                 label[i].Text = "Jucator " + (i + 1).ToString();
                 label[i].Visible = false;
                 this.Controls.Add(label[i]);
 
                 textBox[i] = new TextBox();
-                textBox[i].Location = new System.Drawing.Point(120, 130 + i * 25);
+                textBox[i].Location = new System.Drawing.Point(82, 40 + i * 25);
                 textBox[i].Name = "textBox" + (i + 1).ToString();
                 textBox[i].Size = new System.Drawing.Size(100, 20);
-                textBox[i].TabIndex = i + 1;
+                textBox[i].TabIndex = i + 4;
                 textBox[i].Visible = false;
                 this.Controls.Add(textBox[i]);
 
                 playerColor[i] = new Button();
-                playerColor[i].Location = new System.Drawing.Point(240, 130 + i * 25);
+                playerColor[i].Location = new System.Drawing.Point(197, 40 + i * 25);
                 playerColor[i].Name = "color";
                 playerColor[i].Size = new System.Drawing.Size(21, 21);
-                playerColor[i].TabIndex = 2;
+                playerColor[i].TabIndex = i+5;
                 playerColor[i].Visible = false;
                 playerColor[i].Tag = i;
+                playerColor[i].BackColor = System.Drawing.SystemColors.ButtonFace;
                 playerColor[i].Click += new EventHandler(btnColor_Click);
                 this.Controls.Add(this.playerColor[i]);
+                toolTip1.SetToolTip(playerColor[i], "Alege culoarea");
             }
         }
 
@@ -61,7 +62,6 @@ namespace PiticotApplication.Forms
                 Button btn = (Button)sender;
                 btn.BackColor = colorDialog1.Color;
                 int playerNo = (int)btn.Tag;
-                //label[playerNo].BackColor = btn.BackColor; nu arata bine cu culoare pe background
             }
         }
 
@@ -144,7 +144,7 @@ namespace PiticotApplication.Forms
                 MessageBox.Show("Culorile nu pot fi la fel");
                 return;
             }
-            Form1 form = new Form1(this, names, colors);
+            MainForm form = new MainForm(this, names, colors);
             form.Show();
             this.Visible = false;
 

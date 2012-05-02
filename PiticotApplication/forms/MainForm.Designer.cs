@@ -1,6 +1,6 @@
-﻿namespace PiticotApplication
+﻿namespace PiticotApplication.Forms
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -40,31 +40,37 @@
             this.Player4 = new System.Windows.Forms.Label();
             this.color4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.zarPictureBox = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.zarPictureBox)).BeginInit();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.buttonBack = new System.Windows.Forms.Button();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // buttonDice
             // 
-            this.buttonDice.Location = new System.Drawing.Point(12, 348);
+            this.buttonDice.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.buttonDice.Font = new System.Drawing.Font("Calibri", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.World, ((byte)(0)));
+            this.buttonDice.ForeColor = System.Drawing.Color.Blue;
+            this.buttonDice.Location = new System.Drawing.Point(786, 278);
             this.buttonDice.Name = "buttonDice";
-            this.buttonDice.Size = new System.Drawing.Size(75, 23);
+            this.buttonDice.Size = new System.Drawing.Size(201, 54);
             this.buttonDice.TabIndex = 0;
-            this.buttonDice.Text = "Arunca zar";
-            this.buttonDice.UseVisualStyleBackColor = true;
+            this.buttonDice.Text = "ARUNCA ZARUL";
+            this.buttonDice.UseVisualStyleBackColor = false;
             this.buttonDice.Click += new System.EventHandler(this.buttonDice_Click);
             // 
             // panelPiticot
             // 
             this.panelPiticot.Location = new System.Drawing.Point(12, 12);
             this.panelPiticot.Name = "panelPiticot";
-            this.panelPiticot.Size = new System.Drawing.Size(768, 320);
+            this.panelPiticot.Size = new System.Drawing.Size(768, 440);
             this.panelPiticot.TabIndex = 1;
             // 
             // lblCurrentPlayer
             // 
             this.lblCurrentPlayer.AutoSize = true;
-            this.lblCurrentPlayer.Location = new System.Drawing.Point(303, 348);
+            this.lblCurrentPlayer.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblCurrentPlayer.Location = new System.Drawing.Point(89, 16);
             this.lblCurrentPlayer.Name = "lblCurrentPlayer";
             this.lblCurrentPlayer.Size = new System.Drawing.Size(35, 13);
             this.lblCurrentPlayer.TabIndex = 2;
@@ -73,7 +79,7 @@
             // color1
             // 
             this.color1.AutoSize = true;
-            this.color1.Location = new System.Drawing.Point(700, 348);
+            this.color1.Location = new System.Drawing.Point(10, 38);
             this.color1.Name = "color1";
             this.color1.Size = new System.Drawing.Size(13, 13);
             this.color1.TabIndex = 3;
@@ -82,23 +88,25 @@
             // Player1
             // 
             this.Player1.AutoSize = true;
-            this.Player1.Location = new System.Drawing.Point(720, 348);
+            this.Player1.Location = new System.Drawing.Point(31, 38);
             this.Player1.Name = "Player1";
-            this.Player1.Size = new System.Drawing.Size(0, 13);
+            this.Player1.Size = new System.Drawing.Size(13, 13);
             this.Player1.TabIndex = 4;
+            this.Player1.Text = "  ";
             // 
             // Player2
             // 
             this.Player2.AutoSize = true;
-            this.Player2.Location = new System.Drawing.Point(720, 368);
+            this.Player2.Location = new System.Drawing.Point(31, 59);
             this.Player2.Name = "Player2";
-            this.Player2.Size = new System.Drawing.Size(0, 13);
+            this.Player2.Size = new System.Drawing.Size(13, 13);
             this.Player2.TabIndex = 6;
+            this.Player2.Text = "  ";
             // 
             // color2
             // 
             this.color2.AutoSize = true;
-            this.color2.Location = new System.Drawing.Point(700, 368);
+            this.color2.Location = new System.Drawing.Point(10, 59);
             this.color2.Name = "color2";
             this.color2.Size = new System.Drawing.Size(13, 13);
             this.color2.TabIndex = 5;
@@ -107,15 +115,16 @@
             // Player3
             // 
             this.Player3.AutoSize = true;
-            this.Player3.Location = new System.Drawing.Point(720, 388);
+            this.Player3.Location = new System.Drawing.Point(31, 80);
             this.Player3.Name = "Player3";
-            this.Player3.Size = new System.Drawing.Size(0, 13);
+            this.Player3.Size = new System.Drawing.Size(13, 13);
             this.Player3.TabIndex = 8;
+            this.Player3.Text = "  ";
             // 
             // color3
             // 
             this.color3.AutoSize = true;
-            this.color3.Location = new System.Drawing.Point(700, 388);
+            this.color3.Location = new System.Drawing.Point(10, 80);
             this.color3.Name = "color3";
             this.color3.Size = new System.Drawing.Size(13, 13);
             this.color3.TabIndex = 7;
@@ -124,15 +133,16 @@
             // Player4
             // 
             this.Player4.AutoSize = true;
-            this.Player4.Location = new System.Drawing.Point(720, 408);
+            this.Player4.Location = new System.Drawing.Point(31, 101);
             this.Player4.Name = "Player4";
-            this.Player4.Size = new System.Drawing.Size(0, 13);
+            this.Player4.Size = new System.Drawing.Size(13, 13);
             this.Player4.TabIndex = 10;
+            this.Player4.Text = "  ";
             // 
             // color4
             // 
             this.color4.AutoSize = true;
-            this.color4.Location = new System.Drawing.Point(700, 408);
+            this.color4.Location = new System.Drawing.Point(10, 101);
             this.color4.Name = "color4";
             this.color4.Size = new System.Drawing.Size(13, 13);
             this.color4.TabIndex = 9;
@@ -141,45 +151,77 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(205, 348);
+            this.label1.Location = new System.Drawing.Point(6, 16);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(81, 13);
             this.label1.TabIndex = 11;
             this.label1.Text = "Este randul tau:";
             // 
-            // zarPictureBox
+            // groupBox1
             // 
-            this.zarPictureBox.Location = new System.Drawing.Point(555, 348);
-            this.zarPictureBox.Name = "zarPictureBox";
-            this.zarPictureBox.Size = new System.Drawing.Size(100, 100);
-            this.zarPictureBox.TabIndex = 12;
-            this.zarPictureBox.TabStop = false;
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.lblCurrentPlayer);
+            this.groupBox1.Controls.Add(this.Player4);
+            this.groupBox1.Controls.Add(this.color1);
+            this.groupBox1.Controls.Add(this.color4);
+            this.groupBox1.Controls.Add(this.Player1);
+            this.groupBox1.Controls.Add(this.Player3);
+            this.groupBox1.Controls.Add(this.color2);
+            this.groupBox1.Controls.Add(this.color3);
+            this.groupBox1.Controls.Add(this.Player2);
+            this.groupBox1.Location = new System.Drawing.Point(786, 12);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(201, 122);
+            this.groupBox1.TabIndex = 12;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Jucatorii";
             // 
-            // Form1
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.button1.Font = new System.Drawing.Font("Calibri", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.World, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Blue;
+            this.button1.Location = new System.Drawing.Point(786, 398);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(201, 54);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "IESIRE";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // buttonBack
+            // 
+            this.buttonBack.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.buttonBack.Font = new System.Drawing.Font("Calibri", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.World, ((byte)(0)));
+            this.buttonBack.ForeColor = System.Drawing.Color.Blue;
+            this.buttonBack.Location = new System.Drawing.Point(786, 338);
+            this.buttonBack.Name = "buttonBack";
+            this.buttonBack.Size = new System.Drawing.Size(201, 54);
+            this.buttonBack.TabIndex = 0;
+            this.buttonBack.Text = "INAPOI";
+            this.buttonBack.UseVisualStyleBackColor = false;
+            this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
+            // 
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(792, 464);
-            this.Controls.Add(this.zarPictureBox);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.Player4);
-            this.Controls.Add(this.color4);
-            this.Controls.Add(this.Player3);
-            this.Controls.Add(this.color3);
-            this.Controls.Add(this.Player2);
-            this.Controls.Add(this.color2);
-            this.Controls.Add(this.Player1);
-            this.Controls.Add(this.color1);
-            this.Controls.Add(this.lblCurrentPlayer);
+            this.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.ClientSize = new System.Drawing.Size(999, 464);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panelPiticot);
+            this.Controls.Add(this.buttonBack);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.buttonDice);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Piticot";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.zarPictureBox)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -197,7 +239,9 @@
         private System.Windows.Forms.Label Player4;
         private System.Windows.Forms.Label color4;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox zarPictureBox;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonBack;
 
 
 

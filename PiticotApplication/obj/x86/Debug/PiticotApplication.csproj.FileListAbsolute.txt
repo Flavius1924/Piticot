@@ -59,3 +59,5 @@ C:\Documents and Settings\Admin\My Documents\Dropbox\Piticot\PiticotApplication\
 C:\Documents and Settings\Addy\My Documents\Dropbox\Piticot\PiticotApplication\PiticotApplication\obj\x86\Debug\PiticotApplication.Forms.MainForm.resources
 C:\Documents and Settings\Addy\My Documents\Dropbox\Piticot\PiticotApplication\PiticotApplication\obj\x86\Debug\PiticotApplication.Forms.PlayersForm.resources
 C:\Documents and Settings\Addy\My Documents\Dropbox\Piticot\PiticotApplication\PiticotApplication\bin\Debug\GameTable\AsezareTabla.txt
+C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\PiticotApplication\obj\x86\Debug\PiticotApplication.exe
+C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\PiticotApplication\obj\x86\Debug\PiticotApplication.pdb

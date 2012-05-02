@@ -14,23 +14,23 @@ using System.Diagnostics;
 
 
 
-namespace PiticotApplication
+namespace PiticotApplication.Forms
 {
-    public partial class Form1 : Form//, IPlayable
+    public partial class MainForm : Form
     {
         #region methods
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
             TABLE_WIDTH = panelPiticot.Width;
             TABLE_HEIGHT = panelPiticot.Height;
             CELL_WIDTH = TABLE_WIDTH / 10; // trebuie luat dupa numarul de celule
-            CELL_HEIGHT = TABLE_HEIGHT / 5;
+            CELL_HEIGHT = TABLE_HEIGHT / 6;
             buttons = new List<Button>();
-        
+
         }
         //constructor ptr form1 ca sa poata sa pot da show si la form2 cand inchizi jocul
-        public Form1(Forms.Form2 form2,string[] names, Color[] colors)
+        public MainForm(Forms.PlayersForm form2, string[] names, Color[] colors)
         {
             // TODO: Complete member initialization
             this.colors = colors;
@@ -40,18 +40,8 @@ namespace PiticotApplication
             TABLE_WIDTH = panelPiticot.Width;
             TABLE_HEIGHT = panelPiticot.Height;
             CELL_WIDTH = TABLE_WIDTH / 10; // trebuie luat dupa numarul de celule
-            CELL_HEIGHT = TABLE_HEIGHT / 5;
+            CELL_HEIGHT = TABLE_HEIGHT / 6;
             buttons = new List<Button>();
-            for (int i = 0; i < 6; i++)
-            {
-                pics[i] = new PictureBox();
-            }
-            pics[0].Image = Resources._1;
-            pics[1].Image = Resources._2;
-            pics[2].Image = Resources._3;
-            pics[3].Image = Resources._4;
-            pics[4].Image = Resources._5;
-            pics[5].Image = Resources._6;
         }
 
         private void PlaceCell(Cell cell, int x, int y)
@@ -64,7 +54,7 @@ namespace PiticotApplication
             button.Text = cell.Name;
             button.Tag = cell;
             button.UseVisualStyleBackColor = true;
-            button.BackColor = System.Drawing.SystemColors.Control;
+            button.BackColor = System.Drawing.Color.White;
             this.panelPiticot.Controls.Add(button);
             buttons.Add(button);
         }
@@ -88,12 +78,13 @@ namespace PiticotApplication
         {
             Player player = (Player)sender;
             lblCurrentPlayer.Text = player.Name;
+            lblCurrentPlayer.BackColor = player.Color;
             buttons[player.CurrentCell.Number].BackColor = player.Color;
         }
 
         private void NewGame()
         {
-           this.panelPiticot.Controls.Clear();
+            this.panelPiticot.Controls.Clear();
             buttons.Clear();
             List<Player> players = new List<Player>();
             for (int i = 0; i < names.Length; i++)
@@ -118,31 +109,10 @@ namespace PiticotApplication
                         break;
                 }
             }
-            //players.Add(new Player { Name = "mihai", Color = Color.Red, Number = 1 });
-            //players.Add(new Player { Name = "gigi", Color = Color.Yellow, Number = 2 });
             game = new Game(players);
             InitializeView();
             game.NextPlayer();
         }
-        /*public void ShuffleDice()
-        {
-            Random r = new Random();
-
-            for (int i = 0; i < 6; i++)
-            {
-               
-               Stopwatch  stopwatch = Stopwatch.StartNew();
-                while (true)
-                {
-                    zarPictureBox.Image = pics[r.Next(0, 5) + 1].Image;
-                    if (stopwatch.ElapsedMilliseconds >=500)
-                    {
-                        break;
-                    }
-                }
-           }
-        }*/
-
         #endregion
 
         #region events
@@ -153,9 +123,7 @@ namespace PiticotApplication
 
         private void buttonDice_Click(object sender, EventArgs e)
         {
-           // ShuffleDice();
             int dice = game.ThrowDice();
-            zarPictureBox.Image = pics[dice-1].Image;
             game.Move(dice);
             game.NextPlayer();
         }
@@ -170,19 +138,33 @@ namespace PiticotApplication
             }
             foreach (var button in buttons)
             {
-                button.BackColor = System.Drawing.SystemColors.Control;
+                button.BackColor = System.Drawing.Color.White;
             }
             foreach (var player in game.PlayerList)
             {
                 buttons[player.CurrentCell.Number].BackColor = player.Color;
             }
-            // se redeseneaza nasol daca un jucator se muta dintr-un loc unde mai erau si alti jucatori
 
             if (game.IsFinished)
             {
                 MessageBox.Show("Joc terminat");
                 NewGame();
             }
+        }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            form2.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void buttonBack_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
 
         #endregion
@@ -194,18 +176,9 @@ namespace PiticotApplication
         private readonly int TABLE_HEIGHT = 0;
         private readonly int CELL_HEIGHT = 0;
         private readonly int CELL_WIDTH = 0;
-        private Forms.Form2 form2;
+        private Forms.PlayersForm form2;
         private string[] names;
         private Color[] colors;
-        PictureBox[] pics = new PictureBox[6];
         #endregion
-
-        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            form2.Show();
-        }
-
-     
-
     }
 }
