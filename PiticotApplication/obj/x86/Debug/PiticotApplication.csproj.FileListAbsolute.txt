@@ -61,3 +61,14 @@ C:\Documents and Settings\Addy\My Documents\Dropbox\Piticot\PiticotApplication\P
 C:\Documents and Settings\Addy\My Documents\Dropbox\Piticot\PiticotApplication\PiticotApplication\bin\Debug\GameTable\AsezareTabla.txt
 C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\PiticotApplication\obj\x86\Debug\PiticotApplication.exe
 C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\PiticotApplication\obj\x86\Debug\PiticotApplication.pdb
+C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\PiticotApplication\bin\Debug\GameTable\AsezareTabla.txt
+C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\PiticotApplication\bin\Debug\PiticotApplication.exe
+C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\PiticotApplication\bin\Debug\PiticotApplication.pdb
+C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\PiticotApplication\bin\Debug\PiticotBusiness.dll
+C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\PiticotApplication\bin\Debug\PiticotBusiness.pdb
+C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\PiticotApplication\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\PiticotApplication\obj\x86\Debug\PiticotApplication.Forms.MainForm.resources
+C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\PiticotApplication\obj\x86\Debug\PiticotApplication.Forms.PlayersForm.resources
+C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\PiticotApplication\obj\x86\Debug\PiticotApplication.Properties.Resources.resources
+C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\PiticotApplication\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\PiticotApplication\obj\x86\Debug\GenerateResource.write.1.tlog

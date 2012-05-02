@@ -45,3 +45,13 @@ C:\Documents and Settings\Admin\My Documents\Dropbox\Piticot\PiticotApplication\
 C:\Documents and Settings\Admin\My Documents\Dropbox\Piticot\PiticotApplication\TestProjectPiticot\obj\Debug\TestProjectPiticot.dll
 C:\Documents and Settings\Admin\My Documents\Dropbox\Piticot\PiticotApplication\TestProjectPiticot\obj\Debug\TestProjectPiticot.pdb
 C:\Documents and Settings\Addy\My Documents\Dropbox\Piticot\PiticotApplication\TestProjectPiticot\bin\Debug\GameTable\AsezareTabla.txt
+C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\TestProjectPiticot\bin\Debug\GameTable\AsezareTabla.txt
+C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\TestProjectPiticot\bin\Debug\TestProjectPiticot.dll
+C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\TestProjectPiticot\bin\Debug\TestProjectPiticot.pdb
+C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\TestProjectPiticot\bin\Debug\PiticotBusiness.dll
+C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\TestProjectPiticot\bin\Debug\PiticotBusiness.pdb
+C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\TestProjectPiticot\bin\Debug\PiticotBusiness_Accessor.dll
+C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\TestProjectPiticot\bin\Debug\PiticotBusiness_Accessor.pdb
+C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\TestProjectPiticot\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\TestProjectPiticot\obj\Debug\TestProjectPiticot.dll
+C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\TestProjectPiticot\obj\Debug\TestProjectPiticot.pdb

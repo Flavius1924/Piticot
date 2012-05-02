@@ -47,6 +47,8 @@
     <Compile Include="Classes\Cells\FoxCell.cs" />
     <Compile Include="Classes\Cells\NormalCell.cs" />
     <Compile Include="Classes\Cells\WolfCell.cs" />
+    <Compile Include="Classes\Command\Action.cs" />
+    <Compile Include="Classes\Command\Move.cs" />
     <Compile Include="Classes\Dice\GameDice.cs" />
     <Compile Include="Classes\Game.cs" />
     <Compile Include="Classes\Player.cs" />
