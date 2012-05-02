@@ -61,3 +61,5 @@ C:\Documents and Settings\Addy\My Documents\Dropbox\Piticot\PiticotApplication\P
 C:\Documents and Settings\Addy\My Documents\Dropbox\Piticot\PiticotApplication\PiticotApplication\bin\Debug\GameTable\AsezareTabla.txt
 C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\PiticotApplication\obj\x86\Debug\PiticotApplication.exe
 C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\PiticotApplication\obj\x86\Debug\PiticotApplication.pdb
+D:\Piticot\Piticot\PiticotApplication\obj\x86\Debug\PiticotApplication.exe
+D:\Piticot\Piticot\PiticotApplication\obj\x86\Debug\PiticotApplication.pdb
