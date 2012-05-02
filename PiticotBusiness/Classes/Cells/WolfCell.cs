@@ -10,12 +10,12 @@ namespace PiticotBusiness.Classes.Cells
         public WolfCell()
         {
             this.Name = "Lupul";
-            this.Message = "Lupul te intoarce 2 pasi";
+            this.Message = "Lupul te intoarce 4 pasi!";
         }
 
         public override void Act(Game game)
         {
-            game.Move(-2);
+            game.Move(-4);
         }
     }
 }

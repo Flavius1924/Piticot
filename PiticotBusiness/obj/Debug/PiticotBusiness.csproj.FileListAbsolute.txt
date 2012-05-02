@@ -25,3 +25,4 @@ C:\Documents and Settings\Admin\My Documents\Dropbox\Piticot\PiticotApplication\
 C:\Documents and Settings\Admin\My Documents\Dropbox\Piticot\PiticotApplication\PiticotBusiness\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Admin\My Documents\Dropbox\Piticot\PiticotApplication\PiticotBusiness\obj\Debug\PiticotBusiness.dll
 C:\Documents and Settings\Admin\My Documents\Dropbox\Piticot\PiticotApplication\PiticotBusiness\obj\Debug\PiticotBusiness.pdb
+C:\Documents and Settings\Addy\My Documents\Dropbox\Piticot\PiticotApplication\PiticotBusiness\bin\Debug\GameTable\AsezareTabla.txt

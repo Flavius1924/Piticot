@@ -8,7 +8,6 @@ C:\Documents and Settings\Addy\My Documents\Dropbox\Piticot\PiticotApplication\P
 C:\Documents and Settings\Addy\My Documents\Dropbox\Piticot\PiticotApplication\PiticotApplication\obj\x86\Debug\PiticotApplication.pdb
 C:\Documents and Settings\Addy\My Documents\Dropbox\Piticot\PiticotApplication\PiticotApplication\bin\Debug\PiticotBusiness.dll
 C:\Documents and Settings\Addy\My Documents\Dropbox\Piticot\PiticotApplication\PiticotApplication\bin\Debug\PiticotBusiness.pdb
-C:\Documents and Settings\Addy\My Documents\Dropbox\Piticot\PiticotApplication\PiticotApplication\obj\x86\Debug\PiticotApplication.Form1.resources
 C:\Users\danny\Dropbox\Piticot\PiticotApplication\PiticotApplication\obj\x86\Debug\PiticotApplication.exe
 C:\Users\danny\Dropbox\Piticot\PiticotApplication\PiticotApplication\obj\x86\Debug\PiticotApplication.pdb
 C:\Users\danny\Dropbox\Piticot\PiticotApplication\PiticotApplication\bin\Debug\PiticotApplication.exe
@@ -43,7 +42,6 @@ C:\Users\RSB12\Dropbox\Piticot\PiticotApplication\PiticotApplication\obj\x86\Deb
 C:\Users\RSB12\Dropbox\Piticot\PiticotApplication\PiticotApplication\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\RSB12\Dropbox\Piticot\PiticotApplication\PiticotApplication\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\danny\Dropbox\Piticot\PiticotApplication\PiticotApplication\obj\x86\Debug\PiticotApplication.Forms.Form2.resources
-C:\Documents and Settings\Addy\My Documents\Dropbox\Piticot\PiticotApplication\PiticotApplication\obj\x86\Debug\PiticotApplication.Forms.Form2.resources
 C:\Users\danny\Dropbox\Piticot\PiticotApplication\PiticotApplication\bin\Debug\GameTable\tabla1.txt
 C:\Documents and Settings\Admin\My Documents\Dropbox\Piticot\PiticotApplication\PiticotApplication\obj\x86\Debug\PiticotApplication.exe
 C:\Documents and Settings\Admin\My Documents\Dropbox\Piticot\PiticotApplication\PiticotApplication\obj\x86\Debug\PiticotApplication.pdb
@@ -58,3 +56,6 @@ C:\Documents and Settings\Admin\My Documents\Dropbox\Piticot\PiticotApplication\
 C:\Documents and Settings\Admin\My Documents\Dropbox\Piticot\PiticotApplication\PiticotApplication\obj\x86\Debug\PiticotApplication.Properties.Resources.resources
 C:\Documents and Settings\Admin\My Documents\Dropbox\Piticot\PiticotApplication\PiticotApplication\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Documents and Settings\Admin\My Documents\Dropbox\Piticot\PiticotApplication\PiticotApplication\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Addy\My Documents\Dropbox\Piticot\PiticotApplication\PiticotApplication\obj\x86\Debug\PiticotApplication.Forms.MainForm.resources
+C:\Documents and Settings\Addy\My Documents\Dropbox\Piticot\PiticotApplication\PiticotApplication\obj\x86\Debug\PiticotApplication.Forms.PlayersForm.resources
+C:\Documents and Settings\Addy\My Documents\Dropbox\Piticot\PiticotApplication\PiticotApplication\bin\Debug\GameTable\AsezareTabla.txt

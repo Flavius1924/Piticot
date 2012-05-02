@@ -42,13 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Cells\Cell.cs" />
-    <Compile Include="Classes\Cells\DragonCell.cs" />
     <Compile Include="Classes\Cells\DwarfCell.cs" />
     <Compile Include="Classes\Cells\FairyCell.cs" />
     <Compile Include="Classes\Cells\FoxCell.cs" />
-    <Compile Include="Classes\Cells\GapCell.cs" />
-    <Compile Include="Classes\Cells\HogCell.cs" />
-    <Compile Include="Classes\Cells\LunchCell.cs" />
     <Compile Include="Classes\Cells\NormalCell.cs" />
     <Compile Include="Classes\Cells\WolfCell.cs" />
     <Compile Include="Classes\Dice\GameDice.cs" />
@@ -64,7 +60,7 @@
     <None Include="ClassDiagramPiticot.cd" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="GameTable\tabla1.txt">
+    <Content Include="GameTable\AsezareTabla.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

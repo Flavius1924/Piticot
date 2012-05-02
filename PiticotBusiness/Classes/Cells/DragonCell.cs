@@ -5,9 +5,9 @@ using System.Text;
 
 namespace PiticotBusiness.Classes.Cells
 {
-    internal class DragonCell:Cell
+    internal class DragonCell : Cell
     {
-        public DragonCell() 
+        public DragonCell()
         {
             this.Name = "Dragonul";
         }

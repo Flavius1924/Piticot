@@ -34,12 +34,10 @@ namespace PiticotBusiness.Classes
             IsFinished = false;
             Cells = new List<Cell>();
             PlayersQueue = new Queue<Player>();
-            //Console.WriteLine("Doriti sa definiti nr de celule? D/N");
-            // if (console.readline() == "D") { InitializeGame(playerList, numberOfCells); }
             InitializeGame(playerList);
         }
 
-        private void InitializeGame(List<Player> playerList, int cellNo = 50)
+        private void InitializeGame(List<Player> playerList, int cellNo = 60)
         {
             GenerateCells(cellNo);
             foreach (var player in playerList)
@@ -49,37 +47,40 @@ namespace PiticotBusiness.Classes
             }
         }
 
+        private const string TABLE = @"N N N F D W N N N F
+                                       N D W N N N F N W N
+                                       N N N W N N D F N N
+                                       N F N F f F N N N F
+                                       D N N N W N N W N N
+                                       D F N N N F W F W N";
+
         private void GenerateCells(int cellNo)
         {
-           /* char[] cells = readTable();
-
-            for (int i = 0; i < cells.Length; i++)
+            int cellIndex = 0;
+            for (int i = 0; i < TABLE.Length; i++)
             {
-                switch (cells[i])
+                switch (TABLE[i])
                 {
-                    case 'n':
-                        PlaceCell(new NormalCell() { Number = i });
+                    case 'N':
+                        PlaceCell(new NormalCell { Number = cellIndex++ });
                         break;
-                    case 'l':
-                        PlaceCell(new WolfCell { Number = i });
+                    case 'F':
+                        PlaceCell(new FoxCell { Number = cellIndex++ });
                         break;
-                }
-
-            }*/
-            for (int i = 0; i < cellNo; i++)
-            {   
-                if (i == 2)
-                {
-                    PlaceCell(new WolfCell { Number = i });
-                }
-                else
-                {
-                    PlaceCell(new NormalCell() { Number = i });
+                    case 'W':
+                        PlaceCell(new WolfCell { Number = cellIndex++ });
+                        break;
+                    case 'f':
+                        PlaceCell(new FairyCell { Number = cellIndex++ });
+                        break;
+                    case 'D':
+                        PlaceCell(new DwarfCell { Number = cellIndex++ });
+                        break;
                 }
             }
-           
+
         }
-       
+
         public void NextPlayer()
         {
             CurrentPlayer = PlayersQueue.Dequeue();
@@ -116,6 +117,11 @@ namespace PiticotBusiness.Classes
             int currentCellNumber = CurrentPlayer.CurrentCell.Number;
             CurrentPlayer.PreviousCellNumber = currentCellNumber;
             currentCellNumber += numberOfSteps;
+            if (CurrentPlayer.HasWon)
+            {
+                currentCellNumber = TargetCellNumber;
+                this.IsFinished = true;
+            }
             if (currentCellNumber >= TargetCellNumber)
             {
                 currentCellNumber = TargetCellNumber;
@@ -126,7 +132,6 @@ namespace PiticotBusiness.Classes
             game_Move(this, EventArgs.Empty);
             if (!this.IsFinished) Cells[currentCellNumber].Act(this);
         }
-
         #endregion
     }
 }

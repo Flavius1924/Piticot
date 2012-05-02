@@ -9,12 +9,15 @@ namespace PiticotBusiness.Classes.Cells
     {
         public FairyCell()
         {
-            this.Name = "Zana cea buna";
+            this.Name = "Zana";
+            this.Message = "Felicitari! Zana te-a facut victorios!";    
         }
 
         public override void Act(Game game)
         {
-            //game.Move(2);
+            game.CurrentPlayer.HasWon = true;
+            game.IsFinished = true;
+            game.Move(0);
         }
     }
 }

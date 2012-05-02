@@ -5,11 +5,12 @@ using System.Text;
 
 namespace PiticotBusiness.Classes.Cells
 {
-    internal class DwarfCell: Cell
+    internal class DwarfCell : Cell
     {
         public DwarfCell()
         {
             this.Name = "Piticul";
+            this.Message = "Piticul te avanseaza 3 pasi!";
         }
 
         public override void Act(Game game)
@@ -19,4 +20,3 @@ namespace PiticotBusiness.Classes.Cells
 
     }
 }
-//piticul te avanseaza la un numar care vrem noi
