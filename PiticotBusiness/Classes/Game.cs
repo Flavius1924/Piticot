@@ -112,7 +112,7 @@ namespace PiticotBusiness.Classes
         #endregion
 
         #region GAME_LOGIC
-        public void Move(int numberOfSteps)
+        internal void Move(int numberOfSteps)
         {
             int currentCellNumber = CurrentPlayer.CurrentCell.Number;
             CurrentPlayer.PreviousCellNumber = currentCellNumber;

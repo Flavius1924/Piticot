@@ -74,7 +74,7 @@ namespace TestProjectPiticot
             int actual;
             actual = target.Throw();
             bool betwen1and6 = false;
-            if (actual == 6 || actual == 1) betwen1and6 = true;
+            if (actual <= 6 && actual >= 1) betwen1and6 = true;
             Assert.IsTrue(betwen1and6);
 
         }

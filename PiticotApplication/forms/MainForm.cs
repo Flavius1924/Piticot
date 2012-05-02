@@ -11,8 +11,7 @@ using PiticotBusiness.Classes;
 using PiticotBusiness.Classes.Dice;
 using PiticotApplication.Properties;
 using System.Diagnostics;
-
-
+using PiticotBusiness.Classes.Command;
 
 namespace PiticotApplication.Forms
 {
@@ -32,14 +31,13 @@ namespace PiticotApplication.Forms
         //constructor ptr form1 ca sa poata sa pot da show si la form2 cand inchizi jocul
         public MainForm(Forms.PlayersForm form2, string[] names, Color[] colors)
         {
-            // TODO: Complete member initialization
             this.colors = colors;
             this.names = names;
             this.form2 = form2;
             InitializeComponent();
             TABLE_WIDTH = panelPiticot.Width;
             TABLE_HEIGHT = panelPiticot.Height;
-            CELL_WIDTH = TABLE_WIDTH / 10; // trebuie luat dupa numarul de celule
+            CELL_WIDTH = TABLE_WIDTH / 10; 
             CELL_HEIGHT = TABLE_HEIGHT / 6;
             buttons = new List<Button>();
         }
@@ -84,6 +82,7 @@ namespace PiticotApplication.Forms
 
         private void NewGame()
         {
+            cmdManager = new CommandManager();
             this.panelPiticot.Controls.Clear();
             buttons.Clear();
             List<Player> players = new List<Player>();
@@ -124,8 +123,9 @@ namespace PiticotApplication.Forms
         private void buttonDice_Click(object sender, EventArgs e)
         {
             int dice = game.ThrowDice();
-            game.Move(dice);
-            game.NextPlayer();
+            cmdManager.ExecuteCommand(new MoveCommand(game, dice));
+            //game.Move(dice);
+            //game.NextPlayer();
         }
 
         void game_Move(object sender, EventArgs e)
@@ -167,6 +167,11 @@ namespace PiticotApplication.Forms
             this.Close();
         }
 
+        private void buttonUndo_Click(object sender, EventArgs e)
+        {
+            cmdManager.Undo();
+        }
+
         #endregion
 
         #region members
@@ -179,6 +184,8 @@ namespace PiticotApplication.Forms
         private Forms.PlayersForm form2;
         private string[] names;
         private Color[] colors;
+        private CommandManager cmdManager;
         #endregion
+
     }
 }

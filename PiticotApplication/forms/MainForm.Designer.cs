@@ -43,6 +43,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
             this.buttonBack = new System.Windows.Forms.Button();
+            this.buttonUndo = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,7 +52,7 @@
             this.buttonDice.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.buttonDice.Font = new System.Drawing.Font("Calibri", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.World, ((byte)(0)));
             this.buttonDice.ForeColor = System.Drawing.Color.Blue;
-            this.buttonDice.Location = new System.Drawing.Point(786, 278);
+            this.buttonDice.Location = new System.Drawing.Point(786, 218);
             this.buttonDice.Name = "buttonDice";
             this.buttonDice.Size = new System.Drawing.Size(201, 54);
             this.buttonDice.TabIndex = 0;
@@ -202,6 +203,19 @@
             this.buttonBack.UseVisualStyleBackColor = false;
             this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
             // 
+            // buttonUndo
+            // 
+            this.buttonUndo.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.buttonUndo.Font = new System.Drawing.Font("Calibri", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.World, ((byte)(0)));
+            this.buttonUndo.ForeColor = System.Drawing.Color.Blue;
+            this.buttonUndo.Location = new System.Drawing.Point(786, 278);
+            this.buttonUndo.Name = "buttonUndo";
+            this.buttonUndo.Size = new System.Drawing.Size(201, 54);
+            this.buttonUndo.TabIndex = 0;
+            this.buttonUndo.Text = "UNDO";
+            this.buttonUndo.UseVisualStyleBackColor = false;
+            this.buttonUndo.Click += new System.EventHandler(this.buttonUndo_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -212,6 +226,7 @@
             this.Controls.Add(this.panelPiticot);
             this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttonUndo);
             this.Controls.Add(this.buttonDice);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MainForm";
@@ -242,6 +257,7 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button buttonBack;
+        private System.Windows.Forms.Button buttonUndo;
 
 
 

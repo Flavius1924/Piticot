@@ -22,12 +22,22 @@ namespace PiticotBusiness.Classes.Command
 
         public override void Undo()
         {
-            
+            int currentCellNumber = previousPlayer.CurrentCell.Number;
+            while (game.CurrentPlayer != previousPlayer)
+            {
+                game.NextPlayer();
+            }
+            game.Move(previousPosition - currentCellNumber);
+            while (game.CurrentPlayer != previousPlayer)
+            {
+                game.NextPlayer();
+            }
         }
 
         public override void Execute()
         {
-
+            game.Move(steps);
+            game.NextPlayer();
         }
     }
 }
