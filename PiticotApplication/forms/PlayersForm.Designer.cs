@@ -34,7 +34,6 @@
             this.startButton = new System.Windows.Forms.Button();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -77,22 +76,12 @@
             this.colorDialog1.Color = System.Drawing.Color.Gray;
             this.colorDialog1.SolidColorOnly = true;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(242, 40);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(59, 26);
-            this.button1.TabIndex = 51;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // PlayersForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuBar;
             this.ClientSize = new System.Drawing.Size(313, 167);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.startButton);
             this.Controls.Add(this.nrPlayers);
             this.Controls.Add(this.label1);
@@ -114,6 +103,5 @@
         private System.Windows.Forms.Button startButton;
         private System.Windows.Forms.ColorDialog colorDialog1;
         private System.Windows.Forms.ToolTip toolTip1;
-        private System.Windows.Forms.Button button1;
     }
 }
