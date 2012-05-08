@@ -10,6 +10,7 @@ namespace PiticotBusiness.Classes.Cells
         public NormalCell()
         {
             this.Name = "Normala";
+            this.Img = null;
         }
 
         public override void Act(Game game)

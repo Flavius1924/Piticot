@@ -8,3 +8,13 @@ C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\
 C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\TestProjectPiticot\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\TestProjectPiticot\obj\Debug\TestProjectPiticot.dll
 C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\TestProjectPiticot\obj\Debug\TestProjectPiticot.pdb
+D:\Faculta\DesignPatterns\Piticot\TestProjectPiticot\bin\Debug\GameTable\AsezareTabla.txt
+D:\Faculta\DesignPatterns\Piticot\TestProjectPiticot\bin\Debug\TestProjectPiticot.dll
+D:\Faculta\DesignPatterns\Piticot\TestProjectPiticot\bin\Debug\TestProjectPiticot.pdb
+D:\Faculta\DesignPatterns\Piticot\TestProjectPiticot\bin\Debug\PiticotBusiness.dll
+D:\Faculta\DesignPatterns\Piticot\TestProjectPiticot\bin\Debug\PiticotBusiness.pdb
+D:\Faculta\DesignPatterns\Piticot\TestProjectPiticot\bin\Debug\PiticotBusiness_Accessor.dll
+D:\Faculta\DesignPatterns\Piticot\TestProjectPiticot\bin\Debug\PiticotBusiness_Accessor.pdb
+D:\Faculta\DesignPatterns\Piticot\TestProjectPiticot\obj\Debug\ResolveAssemblyReference.cache
+D:\Faculta\DesignPatterns\Piticot\TestProjectPiticot\obj\Debug\TestProjectPiticot.dll
+D:\Faculta\DesignPatterns\Piticot\TestProjectPiticot\obj\Debug\TestProjectPiticot.pdb

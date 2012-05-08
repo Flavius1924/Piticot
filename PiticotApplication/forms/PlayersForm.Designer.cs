@@ -34,6 +34,7 @@
             this.startButton = new System.Windows.Forms.Button();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -76,12 +77,26 @@
             this.colorDialog1.Color = System.Drawing.Color.Gray;
             this.colorDialog1.SolidColorOnly = true;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.button1.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.button1.Location = new System.Drawing.Point(242, 40);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(59, 21);
+            this.button1.TabIndex = 50;
+            this.button1.Text = "Iesire";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // PlayersForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.CancelButton = this.button1;
             this.ClientSize = new System.Drawing.Size(313, 167);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.startButton);
             this.Controls.Add(this.nrPlayers);
             this.Controls.Add(this.label1);
@@ -103,5 +118,6 @@
         private System.Windows.Forms.Button startButton;
         private System.Windows.Forms.ColorDialog colorDialog1;
         private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.Button button1;
     }
 }

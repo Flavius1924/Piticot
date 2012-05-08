@@ -10,7 +10,8 @@ namespace PiticotBusiness.Classes.Cells
         public FairyCell()
         {
             this.Name = "Zana";
-            this.Message = "Felicitari! Zana te-a facut victorios!";    
+            this.Message = "Felicitari! Zana te-a facut victorios!";
+            this.Img = Properties.Resources.fairy;
         }
 
         public override void Act(Game game)

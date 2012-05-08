@@ -77,3 +77,16 @@ C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\
 D:\Piticot\Piticot\PiticotApplication\obj\x86\Debug\PiticotApplication.exe
 D:\Piticot\Piticot\PiticotApplication\obj\x86\Debug\PiticotApplication.pdb
 >>>>>>> a7492fd1870b856e5b8aa20b5ffde21939f4bcef
+D:\Faculta\DesignPatterns\Piticot\PiticotApplication\obj\x86\Debug\PiticotApplication.exe
+D:\Faculta\DesignPatterns\Piticot\PiticotApplication\obj\x86\Debug\PiticotApplication.pdb
+D:\Faculta\DesignPatterns\Piticot\PiticotApplication\bin\Debug\GameTable\AsezareTabla.txt
+D:\Faculta\DesignPatterns\Piticot\PiticotApplication\bin\Debug\PiticotApplication.exe
+D:\Faculta\DesignPatterns\Piticot\PiticotApplication\bin\Debug\PiticotApplication.pdb
+D:\Faculta\DesignPatterns\Piticot\PiticotApplication\bin\Debug\PiticotBusiness.dll
+D:\Faculta\DesignPatterns\Piticot\PiticotApplication\bin\Debug\PiticotBusiness.pdb
+D:\Faculta\DesignPatterns\Piticot\PiticotApplication\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Faculta\DesignPatterns\Piticot\PiticotApplication\obj\x86\Debug\PiticotApplication.Forms.MainForm.resources
+D:\Faculta\DesignPatterns\Piticot\PiticotApplication\obj\x86\Debug\PiticotApplication.Forms.PlayersForm.resources
+D:\Faculta\DesignPatterns\Piticot\PiticotApplication\obj\x86\Debug\PiticotApplication.Properties.Resources.resources
+D:\Faculta\DesignPatterns\Piticot\PiticotApplication\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Faculta\DesignPatterns\Piticot\PiticotApplication\obj\x86\Debug\GenerateResource.write.1.tlog

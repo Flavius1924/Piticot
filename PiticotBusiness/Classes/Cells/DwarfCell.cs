@@ -11,6 +11,7 @@ namespace PiticotBusiness.Classes.Cells
         {
             this.Name = "Piticul";
             this.Message = "Piticul te avanseaza 3 pasi!";
+            this.Img = Properties.Resources.dwarf;
         }
 
         public override void Act(Game game)

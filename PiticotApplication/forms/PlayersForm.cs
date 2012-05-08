@@ -150,6 +150,11 @@ namespace PiticotApplication.Forms
 
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
 
 
        /* public void Color_SelectedValueChanged(object sender, EventArgs e)

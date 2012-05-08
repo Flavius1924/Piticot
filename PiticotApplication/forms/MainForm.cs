@@ -37,7 +37,7 @@ namespace PiticotApplication.Forms
             InitializeComponent();
             TABLE_WIDTH = panelPiticot.Width;
             TABLE_HEIGHT = panelPiticot.Height;
-            CELL_WIDTH = TABLE_WIDTH / 10; 
+            CELL_WIDTH = TABLE_WIDTH / 10;
             CELL_HEIGHT = TABLE_HEIGHT / 6;
             buttons = new List<Button>();
         }
@@ -49,10 +49,20 @@ namespace PiticotApplication.Forms
             button.Name = cell.Number.ToString();
             button.Size = new System.Drawing.Size(CELL_WIDTH, CELL_HEIGHT);
             button.TabIndex = 0;
-            button.Text = cell.Name;
             button.Tag = cell;
             button.UseVisualStyleBackColor = true;
             button.BackColor = System.Drawing.Color.White;
+            button.BackgroundImageLayout = ImageLayout.Stretch;
+            if (cell.Img == null)
+            {
+                button.Text = (cell.Number + 1).ToString();
+                button.ForeColor = Color.BlueViolet;
+                button.Font = new Font("Comic Sans", 25);
+            }
+            else
+            {
+                button.BackgroundImage = cell.Img;
+            }
             this.panelPiticot.Controls.Add(button);
             buttons.Add(button);
         }

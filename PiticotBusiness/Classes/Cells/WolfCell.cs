@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using PiticotBusiness.Properties;
 
 namespace PiticotBusiness.Classes.Cells
 {
@@ -11,6 +12,7 @@ namespace PiticotBusiness.Classes.Cells
         {
             this.Name = "Lupul";
             this.Message = "Lupul te intoarce 4 pasi!";
+            this.Img = Resources.wolfi;
         }
 
         public override void Act(Game game)
