@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.buttonDice = new System.Windows.Forms.Button();
             this.panelPiticot = new System.Windows.Forms.Panel();
             this.lblCurrentPlayer = new System.Windows.Forms.Label();
@@ -44,7 +45,11 @@
             this.button1 = new System.Windows.Forms.Button();
             this.buttonBack = new System.Windows.Forms.Button();
             this.buttonUndo = new System.Windows.Forms.Button();
+            this.pictureBoxZar = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxZar)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonDice
@@ -52,9 +57,9 @@
             this.buttonDice.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.buttonDice.Font = new System.Drawing.Font("Calibri", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.World, ((byte)(0)));
             this.buttonDice.ForeColor = System.Drawing.Color.Blue;
-            this.buttonDice.Location = new System.Drawing.Point(786, 218);
+            this.buttonDice.Location = new System.Drawing.Point(786, 256);
             this.buttonDice.Name = "buttonDice";
-            this.buttonDice.Size = new System.Drawing.Size(201, 54);
+            this.buttonDice.Size = new System.Drawing.Size(201, 43);
             this.buttonDice.TabIndex = 0;
             this.buttonDice.Text = "ARUNCA ZARUL";
             this.buttonDice.UseVisualStyleBackColor = false;
@@ -182,9 +187,9 @@
             this.button1.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.button1.Font = new System.Drawing.Font("Calibri", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.World, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Blue;
-            this.button1.Location = new System.Drawing.Point(786, 398);
+            this.button1.Location = new System.Drawing.Point(786, 409);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(201, 54);
+            this.button1.Size = new System.Drawing.Size(201, 43);
             this.button1.TabIndex = 0;
             this.button1.Text = "IESIRE";
             this.button1.UseVisualStyleBackColor = false;
@@ -195,9 +200,9 @@
             this.buttonBack.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.buttonBack.Font = new System.Drawing.Font("Calibri", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.World, ((byte)(0)));
             this.buttonBack.ForeColor = System.Drawing.Color.Blue;
-            this.buttonBack.Location = new System.Drawing.Point(786, 338);
+            this.buttonBack.Location = new System.Drawing.Point(786, 358);
             this.buttonBack.Name = "buttonBack";
-            this.buttonBack.Size = new System.Drawing.Size(201, 54);
+            this.buttonBack.Size = new System.Drawing.Size(201, 43);
             this.buttonBack.TabIndex = 0;
             this.buttonBack.Text = "INAPOI";
             this.buttonBack.UseVisualStyleBackColor = false;
@@ -208,13 +213,35 @@
             this.buttonUndo.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.buttonUndo.Font = new System.Drawing.Font("Calibri", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.World, ((byte)(0)));
             this.buttonUndo.ForeColor = System.Drawing.Color.Blue;
-            this.buttonUndo.Location = new System.Drawing.Point(786, 278);
+            this.buttonUndo.Location = new System.Drawing.Point(786, 307);
             this.buttonUndo.Name = "buttonUndo";
-            this.buttonUndo.Size = new System.Drawing.Size(201, 54);
+            this.buttonUndo.Size = new System.Drawing.Size(201, 43);
             this.buttonUndo.TabIndex = 0;
             this.buttonUndo.Text = "UNDO";
             this.buttonUndo.UseVisualStyleBackColor = false;
             this.buttonUndo.Click += new System.EventHandler(this.buttonUndo_Click);
+            // 
+            // pictureBoxZar
+            // 
+            this.pictureBoxZar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBoxZar.Location = new System.Drawing.Point(877, 140);
+            this.pictureBoxZar.Name = "pictureBoxZar";
+            this.pictureBoxZar.Size = new System.Drawing.Size(110, 110);
+            this.pictureBoxZar.TabIndex = 13;
+            this.pictureBoxZar.TabStop = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(787, 187);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(77, 13);
+            this.label2.TabIndex = 14;
+            this.label2.Text = "Ai dat cu zarul:";
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // MainForm
             // 
@@ -222,6 +249,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuBar;
             this.ClientSize = new System.Drawing.Size(999, 464);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.pictureBoxZar);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panelPiticot);
             this.Controls.Add(this.buttonBack);
@@ -236,7 +265,9 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxZar)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -258,6 +289,9 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button buttonBack;
         private System.Windows.Forms.Button buttonUndo;
+        private System.Windows.Forms.PictureBox pictureBoxZar;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Timer timer1;
 
 
 

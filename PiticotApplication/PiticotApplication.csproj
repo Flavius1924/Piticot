@@ -94,24 +94,23 @@
       <Name>PiticotBusiness</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <None Include="Images\1.bmp" />
+    <None Include="Images\1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\2.bmp" />
+    <None Include="Images\2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\3.bmp" />
+    <None Include="Images\3.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\4.bmp" />
+    <None Include="Images\4.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\5.bmp" />
+    <None Include="Images\5.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\6.bmp" />
+    <None Include="Images\6.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

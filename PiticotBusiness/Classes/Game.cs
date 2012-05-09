@@ -46,20 +46,15 @@ namespace PiticotBusiness.Classes
                 PlayersQueue.Enqueue(player);
             }
         }
-
-        private const string TABLE = @"N N N F D W N N N F
-                                       N D W N N N F N W N
-                                       N N N W N N D F N N
-                                       N F N F f F N N N F
-                                       D N N N W N N W N N
-                                       D F N N N F W F W N";
+        string table = File.ReadAllText(@"GameTable\AsezareTabla.txt");
+        
 
         private void GenerateCells(int cellNo)
         {
             int cellIndex = 0;
-            for (int i = 0; i < TABLE.Length; i++)
+            for (int i = 0; i < table.Length; i++)
             {
-                switch (TABLE[i])
+                switch (table[i])
                 {
                     case 'N':
                         PlaceCell(new NormalCell { Number = cellIndex++ });
@@ -93,17 +88,7 @@ namespace PiticotBusiness.Classes
             TargetCellNumber = cell.Number;
             Cells.Add(cell);
         }
-        private char[] readTable()
-        {
-            string text = System.IO.File.ReadAllText(@".\GameTable\tabla1.txt");
-            char[] cells = new char[text.Length];
-            for (int i = 0; i < text.Length; i++)
-            {
-                cells[i] = text[i];
-            }
-            return cells;
-
-        }
+        
         public int ThrowDice()
         {
             return GameDice.GetInstance().Throw();
