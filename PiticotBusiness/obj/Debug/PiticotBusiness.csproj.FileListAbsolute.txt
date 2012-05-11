@@ -32,12 +32,23 @@ C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\
 C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\PiticotBusiness\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\PiticotBusiness\obj\Debug\PiticotBusiness.dll
 C:\Documents and Settings\Addy\My Documents\Visual Studio 2010\Projects\Piticot\PiticotBusiness\obj\Debug\PiticotBusiness.pdb
-D:\Faculta\DesignPatterns\Piticot\PiticotBusiness\bin\Debug\GameTable\AsezareTabla.txt
+D:\Piticot\PiticotBusiness\bin\Debug\GameTable\AsezareTabla.txt
+D:\Piticot\PiticotBusiness\bin\Debug\PiticotBusiness.dll
+D:\Piticot\PiticotBusiness\bin\Debug\PiticotBusiness.pdb
+D:\Piticot\PiticotBusiness\obj\Debug\ResolveAssemblyReference.cache
+D:\Piticot\PiticotBusiness\obj\Debug\PiticotBusiness.Properties.Resources.resources
+D:\Piticot\PiticotBusiness\obj\Debug\GenerateResource.read.1.tlog
+D:\Piticot\PiticotBusiness\obj\Debug\GenerateResource.write.1.tlog
+D:\Piticot\PiticotBusiness\obj\Debug\PiticotBusiness.dll
+D:\Piticot\PiticotBusiness\obj\Debug\PiticotBusiness.pdb
 D:\Faculta\DesignPatterns\Piticot\PiticotBusiness\bin\Debug\PiticotBusiness.dll
 D:\Faculta\DesignPatterns\Piticot\PiticotBusiness\bin\Debug\PiticotBusiness.pdb
+D:\Faculta\DesignPatterns\Piticot\PiticotBusiness\bin\Debug\log4net.dll
+D:\Faculta\DesignPatterns\Piticot\PiticotBusiness\bin\Debug\log4net.xml
 D:\Faculta\DesignPatterns\Piticot\PiticotBusiness\obj\Debug\ResolveAssemblyReference.cache
 D:\Faculta\DesignPatterns\Piticot\PiticotBusiness\obj\Debug\PiticotBusiness.Properties.Resources.resources
 D:\Faculta\DesignPatterns\Piticot\PiticotBusiness\obj\Debug\GenerateResource.read.1.tlog
 D:\Faculta\DesignPatterns\Piticot\PiticotBusiness\obj\Debug\GenerateResource.write.1.tlog
 D:\Faculta\DesignPatterns\Piticot\PiticotBusiness\obj\Debug\PiticotBusiness.dll
 D:\Faculta\DesignPatterns\Piticot\PiticotBusiness\obj\Debug\PiticotBusiness.pdb
+D:\Faculta\DesignPatterns\Piticot\PiticotBusiness\bin\Debug\GameTable\AsezareTabla.txt

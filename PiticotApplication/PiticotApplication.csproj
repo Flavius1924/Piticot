@@ -11,7 +11,8 @@
     <RootNamespace>PiticotApplication</RootNamespace>
     <AssemblyName>PiticotApplication</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -89,29 +90,28 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Images\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\6.png" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\PiticotBusiness\PiticotBusiness.csproj">
       <Project>{A22A7897-5BE2-4BCB-8E57-2E02A12084F6}</Project>
       <Name>PiticotBusiness</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup />
-  <ItemGroup>
-    <None Include="Images\1.bmp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Images\2.bmp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Images\3.bmp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Images\4.bmp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Images\5.bmp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Images\6.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

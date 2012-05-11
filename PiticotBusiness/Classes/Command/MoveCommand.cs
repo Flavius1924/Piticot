@@ -18,6 +18,7 @@ namespace PiticotBusiness.Classes.Command
             this.steps = steps;
             previousPosition = game.CurrentPlayer.CurrentCell.Number;
             previousPlayer = game.CurrentPlayer;
+            LoggerClass.GetInstance().WriteToLog("Player " + previousPlayer.Name.ToString() + " moved from " + previousPosition + " " + steps + " steps", typeof(MoveCommand), LoggerEnum.Info);
         }
 
         public override void Undo()
@@ -32,6 +33,7 @@ namespace PiticotBusiness.Classes.Command
             {
                 game.NextPlayer();
             }
+            LoggerClass.GetInstance().WriteToLog("Game undo", typeof(MoveCommand),LoggerEnum.Info);
         }
 
         public override void Execute()

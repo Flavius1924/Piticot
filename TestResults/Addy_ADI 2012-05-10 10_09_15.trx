@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b9b19514-56cc-4570-a144-e30391d20638" name="Addy@ADI 2012-05-10 10:09:15" runUser="ADI\Addy" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="1f8a837c-fdd1-469b-8dd1-f356c7203470">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Addy_ADI 2012-05-10 10_09_15">
+      <DeploymentItem filename="D:\Faculta\DesignPatterns\Piticot\PiticotBusiness\bin\Debug\PiticotBusiness.dll" />
+      <DeploymentItem filename="D:\Faculta\DesignPatterns\Piticot\TestProjectPiticot\bin\Debug\log4net.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-05-10T10:09:15.7343750+03:00" queuing="2012-05-10T10:09:17.6875000+03:00" start="2012-05-10T10:09:17.9375000+03:00" finish="2012-05-10T10:09:20.0625000+03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="MoveTest" storage="d:\faculta\designpatterns\piticot\testprojectpiticot\bin\debug\testprojectpiticot.dll" id="6a05ef7f-7648-5109-e691-81f3de55e021">
+      <Execution id="4082393c-b852-4efb-9689-6f896a06d3e5" />
+      <TestMethod codeBase="D:/Faculta/DesignPatterns/Piticot/TestProjectPiticot/bin/Debug/TestProjectPiticot.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProjectPiticot.GameTest, TestProjectPiticot, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MoveTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="6a05ef7f-7648-5109-e691-81f3de55e021" executionId="4082393c-b852-4efb-9689-6f896a06d3e5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4082393c-b852-4efb-9689-6f896a06d3e5" testId="6a05ef7f-7648-5109-e691-81f3de55e021" testName="MoveTest" computerName="ADI" duration="00:00:00.3622150" startTime="2012-05-10T10:09:18.2343750+03:00" endTime="2012-05-10T10:09:19.9062500+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4082393c-b852-4efb-9689-6f896a06d3e5">
+    </UnitTestResult>
+  </Results>
+</TestRun>

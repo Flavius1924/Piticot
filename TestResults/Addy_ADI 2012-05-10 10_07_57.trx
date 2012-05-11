@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0a704117-71c6-4ecd-8372-706d0a37915d" name="Addy@ADI 2012-05-10 10:07:57" runUser="ADI\Addy" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="1f8a837c-fdd1-469b-8dd1-f356c7203470">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Addy_ADI 2012-05-10 10_07_57">
+      <DeploymentItem filename="D:\Faculta\DesignPatterns\Piticot\PiticotBusiness\bin\Debug\PiticotBusiness.dll" />
+      <DeploymentItem filename="D:\Faculta\DesignPatterns\Piticot\TestProjectPiticot\bin\Debug\log4net.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-05-10T10:07:57.7968750+03:00" queuing="2012-05-10T10:07:57.8593750+03:00" start="2012-05-10T10:07:57.8750000+03:00" finish="2012-05-10T10:07:58.8437500+03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="NextPlayerTest" storage="d:\faculta\designpatterns\piticot\testprojectpiticot\bin\debug\testprojectpiticot.dll" id="d90d2649-b98a-b005-1e3f-f848cd46993d">
+      <Execution id="4892e277-73b1-4894-9282-24919c059925" />
+      <TestMethod codeBase="D:/Faculta/DesignPatterns/Piticot/TestProjectPiticot/bin/Debug/TestProjectPiticot.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProjectPiticot.GameTest, TestProjectPiticot, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NextPlayerTest" />
+    </UnitTest>
+    <UnitTest name="GenerateCellsTest" storage="d:\faculta\designpatterns\piticot\testprojectpiticot\bin\debug\testprojectpiticot.dll" id="0896cf21-c0cf-9aaf-dbc9-ca11e3577530">
+      <DeploymentItems>
+        <DeploymentItem filename="PiticotBusiness.dll" />
+      </DeploymentItems>
+      <Execution id="87e08a5f-4930-404e-9c79-c5a1449ab64e" />
+      <TestMethod codeBase="D:/Faculta/DesignPatterns/Piticot/TestProjectPiticot/bin/Debug/TestProjectPiticot.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProjectPiticot.GameTest, TestProjectPiticot, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GenerateCellsTest" />
+    </UnitTest>
+    <UnitTest name="ThrowTest" storage="d:\faculta\designpatterns\piticot\testprojectpiticot\bin\debug\testprojectpiticot.dll" id="94d1e3f1-98a1-07bd-0f21-5047d0dd4515">
+      <Execution id="c1322b43-095d-412c-89c8-ccef2b5077dc" />
+      <TestMethod codeBase="D:/Faculta/DesignPatterns/Piticot/TestProjectPiticot/bin/Debug/TestProjectPiticot.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProjectPiticot.GameDiceTest, TestProjectPiticot, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ThrowTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0896cf21-c0cf-9aaf-dbc9-ca11e3577530" executionId="87e08a5f-4930-404e-9c79-c5a1449ab64e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="94d1e3f1-98a1-07bd-0f21-5047d0dd4515" executionId="c1322b43-095d-412c-89c8-ccef2b5077dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d90d2649-b98a-b005-1e3f-f848cd46993d" executionId="4892e277-73b1-4894-9282-24919c059925" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="87e08a5f-4930-404e-9c79-c5a1449ab64e" testId="0896cf21-c0cf-9aaf-dbc9-ca11e3577530" testName="GenerateCellsTest" computerName="ADI" duration="00:00:00.2890395" startTime="2012-05-10T10:07:57.8906250+03:00" endTime="2012-05-10T10:07:58.5937500+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87e08a5f-4930-404e-9c79-c5a1449ab64e">
+    </UnitTestResult>
+    <UnitTestResult executionId="c1322b43-095d-412c-89c8-ccef2b5077dc" testId="94d1e3f1-98a1-07bd-0f21-5047d0dd4515" testName="ThrowTest" computerName="ADI" duration="00:00:00.0019793" startTime="2012-05-10T10:07:58.5937500+03:00" endTime="2012-05-10T10:07:58.6093750+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c1322b43-095d-412c-89c8-ccef2b5077dc">
+    </UnitTestResult>
+    <UnitTestResult executionId="4892e277-73b1-4894-9282-24919c059925" testId="d90d2649-b98a-b005-1e3f-f848cd46993d" testName="NextPlayerTest" computerName="ADI" duration="00:00:00.1464831" startTime="2012-05-10T10:07:58.6093750+03:00" endTime="2012-05-10T10:07:58.7656250+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4892e277-73b1-4894-9282-24919c059925">
+    </UnitTestResult>
+  </Results>
+</TestRun>

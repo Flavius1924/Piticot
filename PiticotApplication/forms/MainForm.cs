@@ -18,16 +18,6 @@ namespace PiticotApplication.Forms
     public partial class MainForm : Form
     {
         #region methods
-        public MainForm()
-        {
-            InitializeComponent();
-            TABLE_WIDTH = panelPiticot.Width;
-            TABLE_HEIGHT = panelPiticot.Height;
-            CELL_WIDTH = TABLE_WIDTH / 10; // trebuie luat dupa numarul de celule
-            CELL_HEIGHT = TABLE_HEIGHT / 6;
-            buttons = new List<Button>();
-
-        }
         //constructor ptr form1 ca sa poata sa pot da show si la form2 cand inchizi jocul
         public MainForm(Forms.PlayersForm form2, string[] names, Color[] colors)
         {
@@ -40,6 +30,13 @@ namespace PiticotApplication.Forms
             CELL_WIDTH = TABLE_WIDTH / 10;
             CELL_HEIGHT = TABLE_HEIGHT / 6;
             buttons = new List<Button>();
+            Images = new List<Image>();
+            Images.Add(Properties.Resources._1);
+            Images.Add(Properties.Resources._2);
+            Images.Add(Properties.Resources._3);
+            Images.Add(Properties.Resources._4);
+            Images.Add(Properties.Resources._5);
+            Images.Add(Properties.Resources._6);
         }
 
         private void PlaceCell(Cell cell, int x, int y)
@@ -132,10 +129,9 @@ namespace PiticotApplication.Forms
 
         private void buttonDice_Click(object sender, EventArgs e)
         {
-            int dice = game.ThrowDice();
-            cmdManager.ExecuteCommand(new MoveCommand(game, dice));
-            //game.Move(dice);
-            //game.NextPlayer();
+            contorZar = (new Random()).Next(6, 12);
+            timer1.Interval = 200;
+            timer1.Start();
         }
 
         void game_Move(object sender, EventArgs e)
@@ -195,7 +191,23 @@ namespace PiticotApplication.Forms
         private string[] names;
         private Color[] colors;
         private CommandManager cmdManager;
+        private List<Image> Images;
+        private int contorZar = 0;
         #endregion
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            Random rand = new Random();
+            int dice = game.ThrowDice();
+            pictureBoxZar.BackgroundImage = Images[dice-1];
+            if (--contorZar <= 0)
+            {
+                timer1.Stop();
+                cmdManager.ExecuteCommand(new MoveCommand(game, dice));
+            }
+        }
+
+
 
     }
 }

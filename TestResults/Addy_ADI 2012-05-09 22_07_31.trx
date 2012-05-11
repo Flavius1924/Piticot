@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="353ebe18-b3ef-47ef-ab9d-a7eb774ed06a" name="Addy@ADI 2012-05-09 22:07:31" runUser="ADI\Addy" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="1f8a837c-fdd1-469b-8dd1-f356c7203470">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Addy_ADI 2012-05-09 22_07_31">
+      <DeploymentItem filename="D:\Faculta\DesignPatterns\Piticot\PiticotBusiness\bin\Debug\PiticotBusiness.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-05-09T22:07:31.7968750+03:00" queuing="2012-05-09T22:07:34.7343750+03:00" start="2012-05-09T22:07:34.9062500+03:00" finish="2012-05-09T22:07:36.7968750+03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ThrowTest" storage="d:\faculta\designpatterns\piticot\testprojectpiticot\bin\debug\testprojectpiticot.dll" id="94d1e3f1-98a1-07bd-0f21-5047d0dd4515">
+      <Execution id="108e6db8-b3e4-4ac8-8556-e87f38f05ec5" />
+      <TestMethod codeBase="D:/Faculta/DesignPatterns/Piticot/TestProjectPiticot/bin/Debug/TestProjectPiticot.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProjectPiticot.GameDiceTest, TestProjectPiticot, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ThrowTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="94d1e3f1-98a1-07bd-0f21-5047d0dd4515" executionId="108e6db8-b3e4-4ac8-8556-e87f38f05ec5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="108e6db8-b3e4-4ac8-8556-e87f38f05ec5" testId="94d1e3f1-98a1-07bd-0f21-5047d0dd4515" testName="ThrowTest" computerName="ADI" duration="00:00:00.1943780" startTime="2012-05-09T22:07:35.0156250+03:00" endTime="2012-05-09T22:07:36.7343750+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="108e6db8-b3e4-4ac8-8556-e87f38f05ec5">
+    </UnitTestResult>
+  </Results>
+</TestRun>

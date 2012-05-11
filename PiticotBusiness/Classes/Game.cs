@@ -35,11 +35,12 @@ namespace PiticotBusiness.Classes
             Cells = new List<Cell>();
             PlayersQueue = new Queue<Player>();
             InitializeGame(playerList);
+            LoggerClass.GetInstance().WriteToLog("New game created", typeof(Game), LoggerEnum.Info);
         }
 
-        private void InitializeGame(List<Player> playerList, int cellNo = 60)
+        private void InitializeGame(List<Player> playerList)
         {
-            GenerateCells(cellNo);
+            GenerateCells();
             foreach (var player in playerList)
             {
                 player.CurrentCell = Cells[0];
@@ -47,19 +48,21 @@ namespace PiticotBusiness.Classes
             }
         }
 
-        private const string TABLE = @"N N N F D W N N N F
-                                       N D W N N N F N W N
-                                       N N N W N N D F N N
-                                       N F N F f F N N N F
-                                       D N N N W N N W N N
-                                       D F N N N F W F W N";
-
-        private void GenerateCells(int cellNo)
+        private void GenerateCells()
         {
-            int cellIndex = 0;
-            for (int i = 0; i < TABLE.Length; i++)
+            string table = "";
+            try
             {
-                switch (TABLE[i])
+                table = File.ReadAllText(@"C:\AsezareTabla.txt");
+            }
+            catch (Exception ex)
+            {
+                LoggerClass.GetInstance().WriteToLog(ex.Message, typeof(Game), LoggerEnum.Error);
+            }
+            int cellIndex = 0;
+            for (int i = 0; i < table.Length; i++)
+            {
+                switch (table[i])
                 {
                     case 'N':
                         PlaceCell(new NormalCell { Number = cellIndex++ });
@@ -93,17 +96,7 @@ namespace PiticotBusiness.Classes
             TargetCellNumber = cell.Number;
             Cells.Add(cell);
         }
-        private char[] readTable()
-        {
-            string text = System.IO.File.ReadAllText(@".\GameTable\tabla1.txt");
-            char[] cells = new char[text.Length];
-            for (int i = 0; i < text.Length; i++)
-            {
-                cells[i] = text[i];
-            }
-            return cells;
-
-        }
+        
         public int ThrowDice()
         {
             return GameDice.GetInstance().Throw();
@@ -114,23 +107,30 @@ namespace PiticotBusiness.Classes
         #region GAME_LOGIC
         internal void Move(int numberOfSteps)
         {
-            int currentCellNumber = CurrentPlayer.CurrentCell.Number;
-            CurrentPlayer.PreviousCellNumber = currentCellNumber;
-            currentCellNumber += numberOfSteps;
-            if (CurrentPlayer.HasWon)
+            try
             {
-                currentCellNumber = TargetCellNumber;
-                this.IsFinished = true;
+                int currentCellNumber = CurrentPlayer.CurrentCell.Number;
+                CurrentPlayer.PreviousCellNumber = currentCellNumber;
+                currentCellNumber += numberOfSteps;
+                if (CurrentPlayer.HasWon)
+                {
+                    currentCellNumber = TargetCellNumber;
+                    this.IsFinished = true;
+                }
+                if (currentCellNumber >= TargetCellNumber)
+                {
+                    currentCellNumber = TargetCellNumber;
+                    this.IsFinished = true;
+                    CurrentPlayer.HasWon = true;
+                }
+                CurrentPlayer.CurrentCell = Cells[currentCellNumber];
+                game_Move(this, EventArgs.Empty);
+                if (!this.IsFinished) Cells[currentCellNumber].Act(this);
             }
-            if (currentCellNumber >= TargetCellNumber)
+            catch (Exception ex)
             {
-                currentCellNumber = TargetCellNumber;
-                this.IsFinished = true;
-                CurrentPlayer.HasWon = true;
+                LoggerClass.GetInstance().WriteToLog(ex.Message, typeof(Game),LoggerEnum.Error);
             }
-            CurrentPlayer.CurrentCell = Cells[currentCellNumber];
-            game_Move(this, EventArgs.Empty);
-            if (!this.IsFinished) Cells[currentCellNumber].Act(this);
         }
         #endregion
     }

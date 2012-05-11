@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="87272002-0e53-4290-9927-1c8ed29b989f" name="Addy@ADI 2012-05-10 09:39:52" runUser="ADI\Addy" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="1f8a837c-fdd1-469b-8dd1-f356c7203470">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Addy_ADI 2012-05-10 09_39_52">
+      <DeploymentItem filename="D:\Faculta\DesignPatterns\Piticot\PiticotBusiness\bin\Debug\PiticotBusiness.dll" />
+      <DeploymentItem filename="D:\Faculta\DesignPatterns\Piticot\TestProjectPiticot\bin\Debug\log4net.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-05-10T09:39:52.4531250+03:00" queuing="2012-05-10T09:39:59.0781250+03:00" start="2012-05-10T09:39:59.4531250+03:00" finish="2012-05-10T09:40:29.7343750+03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="ADI" outcome="Warning" timestamp="2012-05-10T09:39:54.3906250+03:00">
+        <Text>Deployment is currently disabled. The deployment item 'PiticotBusiness.dll' on test 'TestProjectPiticot.GameTest.GenerateCellsTest' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GenerateCellsTest" storage="d:\faculta\designpatterns\piticot\testprojectpiticot\bin\debug\testprojectpiticot.dll" id="0896cf21-c0cf-9aaf-dbc9-ca11e3577530">
+      <DeploymentItems>
+        <DeploymentItem filename="PiticotBusiness.dll" />
+      </DeploymentItems>
+      <Execution id="d596c5a9-b3fb-47c6-842e-93f9ed8cc354" />
+      <TestMethod codeBase="D:/Faculta/DesignPatterns/Piticot/TestProjectPiticot/bin/Debug/TestProjectPiticot.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProjectPiticot.GameTest, TestProjectPiticot, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GenerateCellsTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0896cf21-c0cf-9aaf-dbc9-ca11e3577530" executionId="d596c5a9-b3fb-47c6-842e-93f9ed8cc354" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d596c5a9-b3fb-47c6-842e-93f9ed8cc354" testId="0896cf21-c0cf-9aaf-dbc9-ca11e3577530" testName="GenerateCellsTest" computerName="ADI" duration="00:00:26.9137940" startTime="2012-05-10T09:39:59.8906250+03:00" endTime="2012-05-10T09:40:29.4843750+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d596c5a9-b3fb-47c6-842e-93f9ed8cc354">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProjectPiticot.GameTest.GenerateCellsTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
