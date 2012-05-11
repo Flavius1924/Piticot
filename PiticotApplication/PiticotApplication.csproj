@@ -93,6 +93,7 @@
     <None Include="Images\1.png" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <None Include="Images\2.png" />
   </ItemGroup>
   <ItemGroup>
@@ -112,6 +113,24 @@
       <Project>{A22A7897-5BE2-4BCB-8E57-2E02A12084F6}</Project>
       <Name>PiticotBusiness</Name>
     </ProjectReference>
+=======
+    <None Include="Images\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\6.png" />
+>>>>>>> b487088d35093919513a00f7de87850da35f7f95
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

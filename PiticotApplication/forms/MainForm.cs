@@ -129,9 +129,18 @@ namespace PiticotApplication.Forms
 
         private void buttonDice_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             contorZar = (new Random()).Next(6, 12);
             timer1.Interval = 200;
             timer1.Start();
+=======
+            //timer1 = new Timer();
+            contorZar = (new Random()).Next(6, 12);
+            timer1.Interval = 200;
+            timer1.Start();
+            //game.Move(dice);
+            //game.NextPlayer();
+>>>>>>> b487088d35093919513a00f7de87850da35f7f95
         }
 
         void game_Move(object sender, EventArgs e)

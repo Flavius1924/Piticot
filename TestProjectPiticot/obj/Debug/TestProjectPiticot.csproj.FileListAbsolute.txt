@@ -28,4 +28,17 @@ D:\Faculta\DesignPatterns\Piticot\TestProjectPiticot\bin\Debug\PiticotBusiness_A
 D:\Faculta\DesignPatterns\Piticot\TestProjectPiticot\obj\Debug\ResolveAssemblyReference.cache
 D:\Faculta\DesignPatterns\Piticot\TestProjectPiticot\obj\Debug\TestProjectPiticot.dll
 D:\Faculta\DesignPatterns\Piticot\TestProjectPiticot\obj\Debug\TestProjectPiticot.pdb
+<<<<<<< HEAD
 D:\Faculta\DesignPatterns\Piticot\TestProjectPiticot\bin\Debug\GameTable\AsezareTabla.txt
+=======
+D:\Piticot\TestProjectPiticot\bin\Debug\GameTable\AsezareTabla.txt
+D:\Piticot\TestProjectPiticot\bin\Debug\TestProjectPiticot.dll
+D:\Piticot\TestProjectPiticot\bin\Debug\TestProjectPiticot.pdb
+D:\Piticot\TestProjectPiticot\bin\Debug\PiticotBusiness.dll
+D:\Piticot\TestProjectPiticot\bin\Debug\PiticotBusiness.pdb
+D:\Piticot\TestProjectPiticot\bin\Debug\PiticotBusiness_Accessor.dll
+D:\Piticot\TestProjectPiticot\bin\Debug\PiticotBusiness_Accessor.pdb
+D:\Piticot\TestProjectPiticot\obj\Debug\ResolveAssemblyReference.cache
+D:\Piticot\TestProjectPiticot\obj\Debug\TestProjectPiticot.dll
+D:\Piticot\TestProjectPiticot\obj\Debug\TestProjectPiticot.pdb
+>>>>>>> b487088d35093919513a00f7de87850da35f7f95

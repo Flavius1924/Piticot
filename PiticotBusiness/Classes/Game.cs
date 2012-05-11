@@ -47,8 +47,15 @@ namespace PiticotBusiness.Classes
                 PlayersQueue.Enqueue(player);
             }
         }
+<<<<<<< HEAD
 
         private void GenerateCells()
+=======
+        string table = File.ReadAllText(@"GameTable\AsezareTabla.txt");
+        
+
+        private void GenerateCells(int cellNo)
+>>>>>>> b487088d35093919513a00f7de87850da35f7f95
         {
             string table = "";
             try

@@ -103,7 +103,10 @@ D:\Piticot\PiticotApplication\obj\x86\Debug\PiticotApplication.Forms.PlayersForm
 D:\Piticot\PiticotApplication\obj\x86\Debug\PiticotApplication.Properties.Resources.resources
 D:\Piticot\PiticotApplication\obj\x86\Debug\GenerateResource.read.1.tlog
 D:\Piticot\PiticotApplication\obj\x86\Debug\GenerateResource.write.1.tlog
+<<<<<<< HEAD
 D:\Faculta\DesignPatterns\Piticot\PiticotApplication\bin\Debug\PiticotApplication.exe.config
 D:\Faculta\DesignPatterns\Piticot\PiticotApplication\bin\Debug\log4net.dll
 D:\Faculta\DesignPatterns\Piticot\PiticotApplication\bin\Debug\log4net.xml
 D:\Faculta\DesignPatterns\Piticot\PiticotApplication\bin\Debug\GameTable\AsezareTabla1.txt
+=======
+>>>>>>> b487088d35093919513a00f7de87850da35f7f95
